@@ -55,8 +55,8 @@
 <polygon points='102.75,113.25 137.25,113.25 137.25,78.75 102.75,78.75 ' style='stroke-width: 0.75; stroke: none; fill: #EAEAEA;' />
 <polygon points='102.75,113.25 137.25,113.25 137.25,78.75 102.75,78.75 ' style='stroke-width: 0.75; stroke: none; fill: none;' />
 <rect x='102.75' y='78.75' width='34.50' height='34.50' style='stroke-width: 0.97;' />
-<text x='600.00' y='293.06' text-anchor='middle' style='font-size: 14.70px; font-family: sans;' textLength='22.05px' lengthAdjust='spacingAndGlyphs'>jC3</text>
-<text x='120.00' y='485.06' text-anchor='middle' style='font-size: 14.70px; font-family: sans;' textLength='22.05px' lengthAdjust='spacingAndGlyphs'>jC4</text>
-<text x='120.00' y='101.06' text-anchor='middle' style='font-size: 14.70px; font-family: sans;' textLength='22.05px' lengthAdjust='spacingAndGlyphs'>jC2</text>
+<text x='600.00' y='293.06' text-anchor='middle' style='font-size: 14.70px; font-family: sans;' textLength='19.61px' lengthAdjust='spacingAndGlyphs'>pst</text>
+<text x='120.00' y='485.06' text-anchor='middle' style='font-size: 14.70px; font-family: sans;' textLength='21.24px' lengthAdjust='spacingAndGlyphs'>prn</text>
+<text x='120.00' y='101.06' text-anchor='middle' style='font-size: 14.70px; font-family: sans;' textLength='24.52px' lengthAdjust='spacingAndGlyphs'>pbd</text>
 </g>
 </svg>

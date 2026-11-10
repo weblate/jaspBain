@@ -29,9 +29,8 @@ results <- jaspTools::runAnalysis("BainAncovaBayesian", "sesame.csv", options)
 test_that("Bayes Factor Matrix table results match", {
 	table <- results[["results"]][["bainContainer"]][["collection"]][["bainContainer_bayesFactorMatrix"]][["data"]]
 	jaspTools::expect_equal_tables(table,
-		list(1, 0.0142800857645472, 81137.2461592352, "H1", 70.0275906243274,
-			 1, 5681845.8584242, "H2", 1.2324795914782e-05, 1.75999142693628e-07,
-			 1, "H3"))
+		list(1, 0.0138359886722565, 67000.9825454438, "H1", 72.2752832260673, 1,
+			 4842514.98989674, "H2", 1.2324795914782e-05, 1.75999142693628e-07, 1, "H3"))
 })
 
 test_that("Adjusted Means plot matches", {
@@ -60,13 +59,13 @@ test_that("Coefficients for Groups plus Covariates table results match", {
 test_that("Bain ANCOVA table results match", {
 	table <- results[["results"]][["bainContainer"]][["collection"]][["bainContainer_mainResultsTable"]][["data"]]
 	jaspTools::expect_equal_tables(table,
-		list(0.000105084311355764, 0.000105084311355764, 0.014079033481058,
-			 0.000104305784791424, 0.000102852927093839, "H1", 0.00730703855732458,
-			 0.00735880113666078, 0.985920792997728, 0.00730428279712305,
-			 0.00720254267304118, "H2", 1.28608075123845e-09, 1.29514269130519e-09,
-			 1.73521214331422e-07, 1.28554751028547e-09, 1.26764133566952e-09,
-			 "H3", "", "", "", 0.992591410132538, "", "Hu", "", 1.01423101611448,
-			 "", "", 0.992694603132224, "Hc"))
+		list(0.000105084311355764, 0.000105084311355764, 0.0136471638496271,
+			 0.000104305784791424, 0.000102852927093839, "H1", 0.00754366520102897,
+			 0.00759499836585521, 0.986352632464347, 0.00753696311491431,
+			 0.00743797670427479, "H2", 1.28608075123845e-09, 1.29514269130519e-09,
+			 1.73521214331422e-07, 1.28554751028547e-09, 1.26764133566952e-09, "H3", "",
+			 "", "", 0.99235875399239, "", "Hu", "", 1.01341071884284, "", "",
+			 0.992459109998326, "Hc"))
 })
 
 test_that("Posterior Probabilities plot matches", {
@@ -109,7 +108,7 @@ results <- jaspTools::runAnalysis("BainAncovaBayesian", "sesame.csv", options)
 test_that("Bayes Factor Matrix table results match", {
 	table <- results[["results"]][["bainContainer"]][["collection"]][["bainContainer_bayesFactorMatrix"]][["data"]]
 	jaspTools::expect_equal_tables(table,
-		list(1, 0.000150559942950476, "H1", 6641.87286739963, 1, "H2"))
+		list(1, 0.000143148890768521, "H1", 6985.73348791817, 1, "H2"))
 })
 
 test_that("Coefficients for Groups plus Covariates table results match", {
@@ -129,11 +128,11 @@ test_that("Coefficients for Groups plus Covariates table results match", {
 test_that("Bain ANCOVA table results match", {
 	table <- results[["results"]][["bainContainer"]][["collection"]][["bainContainer_mainResultsTable"]][["data"]]
 	jaspTools::expect_equal_tables(table,
-		list(0.00140342160354945, 0.00140342160354945, 0.000150537278066478,
-			 0.000135954220331965, 0.000149662835869667, "H1", 171.126583986306,
-			 9.32134787013754, 0.999849462721933, 0.90299064723135, 0.994041528820826,
-			 "H2", "", "", "", 0.0968733985483181, "", "Hu", "", 0.0544704840884539,
-			 "", "", 0.00580880834330435, "Hc"))
+		list(0.00140342160354945, 0.00140342160354945, 0.000143128402096524,
+			 0.000135954220331965, 0.000149662835869667, "H1", 198.031798413799,
+			 9.80392929358305, 0.999856871597903, 0.907323221968343, 0.994833983343027,
+			 "H2", "", "", "", 0.0925468957188637, "", "Hu", "", 0.0495068437094995, "",
+			 "", 0.00502360727575814, "Hc"))
 })
 
 test_that("Hypothesis Legend table results match", {

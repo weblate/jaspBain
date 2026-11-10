@@ -28,9 +28,8 @@ results <- jaspTools::runAnalysis("BainAnovaBayesian", "sesame.csv", options)
 test_that("Bayes Factor Matrix table results match", {
 	table <- results[["results"]][["bainContainer"]][["collection"]][["bainContainer_bayesFactorMatrix"]][["data"]]
 	jaspTools::expect_equal_tables(table,
-		list(1, 151.738689499398, 7759.91033700745, "H1", 0.00659027703019649,
-			 1, 51.1399588503645, "H2", 0.000128867468381812, 0.0195541807713612,
-			 1, "H3"))
+		list(1, 151.738689499398, 7407.41986137818, "H1", 0.00659027703019649, 1,
+			 48.8378337167388, "H2", 0.000128867468381812, 0.020475928678574, 1, "H3"))
 })
 
 test_that("Descriptives Plot matches", {
@@ -56,11 +55,11 @@ test_that("Bain ANOVA table results match", {
 	table <- results[["results"]][["bainContainer"]][["collection"]][["bainContainer_mainResultsTable"]][["data"]]
 	jaspTools::expect_equal_tables(table,
 		list(404.653666701285, 404.653666701285, 0.99332570108029, 0.990893300577126,
-			 0.990908453263251, "H1", 2.70591193899018, 2.66677976484626,
-			 0.00654629155133326, 0.00653026135816901, 0.00653036121856833,
-			 "H2", 0.0517188788578635, 0.0521466935992119, 0.000128007368376805,
+			 0.990908453263251, "H1", 2.70591193899018, 2.66792066023777,
+			 0.00654629155133326, 0.00653026135816901, 0.00653036121856833, "H2",
+			 0.0542131832880014, 0.0546281531591227, 0.000128007368376805,
 			 0.000127693911081872, 0.000127695863770172, "H3", "", "", "",
-			 0.0024487441536236, "", "Hu", "", 0.993755284147618, "", "",
+			 0.0024487441536236, "", "Hu", "", 0.993379709978302, "", "",
 			 0.00243348965441062, "Hc"))
 })
 
@@ -103,7 +102,7 @@ results <- jaspTools::runAnalysis("BainAnovaBayesian", "sesame.csv", options)
 test_that("Bayes Factor Matrix table results match", {
 	table <- results[["results"]][["bainContainer"]][["collection"]][["bainContainer_bayesFactorMatrix"]][["data"]]
 	jaspTools::expect_equal_tables(table,
-		list(1, 1.5926902664359e-13, "H1", 6278684695159.13, 1, "H2"))
+		list(1, 1.5926902664359e-13, "H1", 6301624795663.32, 1, "H2"))
 })
 
 test_that("Descriptive Statistics table results match", {
@@ -123,10 +122,10 @@ test_that("Bain ANOVA table results match", {
 	table <- results[["results"]][["bainContainer"]][["collection"]][["bainContainer_mainResultsTable"]][["data"]]
 	jaspTools::expect_equal_tables(table,
 		list(1.15146657084113e-11, 1.15146657084113e-11, 1.59269026643565e-13,
-			 1.57096098370134e-13, 1.58426482533593e-13, "H1", 188.033458021386,
-			 72.2969553532757, 0.999999999999841, 0.986356868505771, 0.994709931191564,
-			 "H2", "", "", "", 0.0136431314940717, "", "Hu", "", 0.384489846190315,
-			 "", "", 0.00529006880827789, "Hc"))
+			 1.57096098370134e-13, 1.58426482533593e-13, "H1", 184.835501844539,
+			 72.5611029418947, 0.999999999999841, 0.986356868505771, 0.994618896873291,
+			 "H2", "", "", "", 0.0136431314940717, "", "Hu", "", 0.39257124425655, "", "",
+			 0.00538110312655109, "Hc"))
 })
 
 test_that("Hypothesis Legend table results match", {
