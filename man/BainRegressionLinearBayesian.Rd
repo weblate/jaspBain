@@ -17,7 +17,7 @@ BainRegressionLinearBayesian(
   model = "",
   plotHeight = 320,
   plotWidth = 480,
-  seed = 607063,
+  seed = 250474,
   standardized = FALSE
 )
 }
