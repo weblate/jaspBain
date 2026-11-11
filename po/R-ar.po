@@ -2,291 +2,355 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspBain 0.96.3\n"
 "POT-Creation-Date: 2026-04-25 04:18\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-11-11 19:08+0000\n"
+"Last-Translator: Fahad Mahfouz Al-Subhi "
+"<fahadalsubhi@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/jasp/jaspbain-r/"
+"ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 2026.11.2.dev0\n"
 
 msgid "Bain does not accept factor levels that contain spaces. Please remove the spaces from your factor levels to continue."
 msgstr ""
+"لا يقبل Bain مسافات في أسماء مستويات العوامل. احذف المسافات من أسماء "
+"المستويات للمتابعة."
 
 msgid "An error occurred in the call to lavaan: %1$s. Please double check if the variables in lavaan syntax match the variables in your data set."
 msgstr ""
+"حدث خطأ في استدعاء lavaan: %1$s. يرجى التأكد من تطابق المتغيرات في صياغة "
+"lavaan مع متغيرات مجموعة البيانات."
 
 msgid "An error occurred in the analysis: Lavaan could not compute the standard errors because the information matrix could not be inverted. This may be a symptom that the model is not identified."
 msgstr ""
+"حدث خطأ في التحليل: تعذر على lavaan حساب الأخطاء المعيارية لتعذر إيجاد معكوس "
+"مصفوفة المعلومات. قد يشير ذلك إلى أن النموذج غير قابل للتعيين."
 
 msgid "The fixed factor has too many levels for a Bain analysis."
-msgstr ""
+msgstr "للعامل الثابت مستويات كثيرة جدًا لإجراء تحليل Bain."
 
 msgid "An error occurred in the analysis:<br>%1$s<br><br>Please double check if the variables in the 'Model Contraints' section match the variables in your data set."
 msgstr ""
+"حدث خطأ في التحليل:<br>%1$s<br><br>يرجى التأكد من تطابق المتغيرات في قسم "
+"'قيود النموذج' مع متغيرات مجموعة البيانات."
 
 msgid "Hypothesis"
-msgstr ""
+msgstr "الفرضية"
 
 msgid "H%i"
-msgstr ""
+msgstr "H%i"
 
 msgid "H1"
-msgstr ""
+msgstr "H1"
 
 msgid "Bain Independent Samples Welch's T-Test"
-msgstr ""
+msgstr "اختبار t لويلش لعينتين مستقلتين (Bain)"
 
 msgid "Bain Paired Samples T-Test"
-msgstr ""
+msgstr "اختبار t لعينتين مرتبطتين (Bain)"
 
 msgid "Bain One Sample T-test"
-msgstr ""
+msgstr "اختبار t لعينة واحدة (Bain)"
 
 msgid "Bain ANOVA"
-msgstr ""
+msgstr "تحليل التباين (Bain)"
 
 msgid "Bain ANCOVA"
-msgstr ""
+msgstr "تحليل التغاير (Bain)"
 
 msgid "Bain Linear Regression"
-msgstr ""
+msgstr "الانحدار الخطي (Bain)"
 
 msgid "Bain Structural Equation Model"
-msgstr ""
+msgstr "نموذج المعادلات البنائية (Bain)"
 
 msgid "BF"
-msgstr ""
+msgstr "BF"
 
 msgid "Posterior probability"
-msgstr ""
+msgstr "الاحتمال البعدي"
 
 msgid "The alternative hypothesis H1 specifies that the mean is unequal to %s. The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تنص الفرضية البديلة H1 على أن المتوسط لا يساوي %s. تستند الاحتمالات البعدية إلى "
+"احتمالات قبلية متساوية."
 
 msgid "The alternative hypothesis H1 specifies that the mean is bigger than %s. The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تنص الفرضية البديلة H1 على أن المتوسط أكبر من %s. تستند الاحتمالات البعدية إلى "
+"احتمالات قبلية متساوية."
 
 msgid "The alternative hypothesis H1 specifies that the mean is smaller than %s. The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تنص الفرضية البديلة H1 على أن المتوسط أصغر من %s. تستند الاحتمالات البعدية إلى "
+"احتمالات قبلية متساوية."
 
 msgid "The hypothesis H1 specifies that the mean is bigger than %1$s and the hypothesis H2 specifies that the mean is smaller than %1$s. The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تنص الفرضية H1 على أن المتوسط أكبر من %1$s، وتنص الفرضية H2 على أنه أصغر من "
+"%1$s. تستند الاحتمالات البعدية إلى احتمالات قبلية متساوية."
 
 msgid "The null hypothesis H0 with test value %1$s is tested against the other hypotheses. H1 states that the mean is bigger than %1$s and H2 states that the mean is smaller than %1$s. The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تُختبر الفرضية الصفرية H0 ذات قيمة الاختبار %1$s مقابل الفرضيات الأخرى. تنص H1 "
+"على أن المتوسط أكبر من %1$s، وتنص H2 على أنه أصغر من %1$s. تستند الاحتمالات "
+"البعدية إلى احتمالات قبلية متساوية."
 
 msgid "The alternative hypothesis H1 specifies that the mean of group 1 is unequal to the mean of group 2. The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تنص الفرضية البديلة H1 على أن متوسط المجموعة 1 لا يساوي متوسط المجموعة 2. "
+"تستند الاحتمالات البعدية إلى احتمالات قبلية متساوية."
 
 msgid "The alternative hypothesis H1 specifies that the mean of group 1 is smaller than the mean of group 2. The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تنص الفرضية البديلة H1 على أن متوسط المجموعة 1 أصغر من متوسط المجموعة 2. "
+"تستند الاحتمالات البعدية إلى احتمالات قبلية متساوية."
 
 msgid "The alternative hypothesis H1 specifies that mean of group 1 is bigger than the mean of group 2. The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تنص الفرضية البديلة H1 على أن متوسط المجموعة 1 أكبر من متوسط المجموعة 2. "
+"تستند الاحتمالات البعدية إلى احتمالات قبلية متساوية."
 
 msgid "The hypothesis H1 specifies that the mean of group 1 is bigger than the mean of group 2. The hypothesis H2 specifies that the mean in group 1 is smaller than the mean in group 2. The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تنص الفرضية H1 على أن متوسط المجموعة 1 أكبر من متوسط المجموعة 2. وتنص "
+"الفرضية H2 على أن متوسط المجموعة 1 أصغر من متوسط المجموعة 2. تستند الاحتمالات "
+"البعدية إلى احتمالات قبلية متساوية."
 
 msgid "The null hypothesis H0 (equal group means) is tested against H1 (first mean larger than second mean) and H2 (first mean smaller than second mean). The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تُختبر الفرضية الصفرية H0 (تساوي متوسطي المجموعتين) مقابل H1 (المتوسط الأول "
+"أكبر من الثاني) وH2 (المتوسط الأول أصغر من الثاني). تستند الاحتمالات البعدية "
+"إلى احتمالات قبلية متساوية."
 
 msgid "The alternative hypothesis H1 specifies that the mean of variable 1 is unequal to the mean of variable 2. The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تنص الفرضية البديلة H1 على أن متوسط المتغير 1 لا يساوي متوسط المتغير 2. تستند "
+"الاحتمالات البعدية إلى احتمالات قبلية متساوية."
 
 msgid "The alternative hypothesis H1 specifies that the mean of variable 1 is bigger than the mean of variable 2. The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تنص الفرضية البديلة H1 على أن متوسط المتغير 1 أكبر من متوسط المتغير 2. تستند "
+"الاحتمالات البعدية إلى احتمالات قبلية متساوية."
 
 msgid "The alternative hypothesis H1 specifies that the mean of variable 1 is smaller than the mean of variable 2. The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تنص الفرضية البديلة H1 على أن متوسط المتغير 1 أصغر من متوسط المتغير 2. تستند "
+"الاحتمالات البعدية إلى احتمالات قبلية متساوية."
 
 msgid "The hypothesis H1 specifies that the mean of variable 1 is bigger than the mean of variable 2, while the hypothesis H2 specifies that it is smaller. The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تنص الفرضية H1 على أن متوسط المتغير 1 أكبر من متوسط المتغير 2، بينما تنص "
+"الفرضية H2 على أنه أصغر منه. تستند الاحتمالات البعدية إلى احتمالات قبلية "
+"متساوية."
 
 msgid "The null hypothesis H0 with equal means is tested against the other hypotheses. The alternative hypothesis H1 states that the mean of variable 1 is bigger than the mean of variable 2. The alternative hypothesis H2 states that the mean of variable 1 is smaller than the mean of variable 2. The posterior probabilities are based on equal prior probabilities."
 msgstr ""
+"تُختبر الفرضية الصفرية H0 لتساوي المتوسطين مقابل الفرضيات الأخرى. تنص البديلة "
+"H1 على أن متوسط المتغير 1 أكبر من متوسط المتغير 2، وتنص البديلة H2 على أنه "
+"أصغر منه. تستند الاحتمالات البعدية إلى احتمالات قبلية متساوية."
 
 msgid "BF.u"
-msgstr ""
+msgstr "BF.u"
 
 msgid "BF.c"
-msgstr ""
+msgstr "BF.c"
 
 msgid "PMP a"
-msgstr ""
+msgstr "PMP a"
 
 msgid "PMP b"
-msgstr ""
+msgstr "PMP b"
 
 msgid "PMP c"
-msgstr ""
+msgstr "PMP c"
 
 msgid "BF.u denotes the Bayes factor of the hypothesis at hand versus the unconstrained hypothesis Hu. \n                        BF.c denotes the Bayes factor of the hypothesis at hand versus its complement. \n                        PMPa contains the posterior model probabilities of the hypotheses specified. \n                        PMPb adds Hu, the unconstrained hypothesis. \n                        PMPc adds Hc, the complement of the union of the hypotheses specified. \n                        All PMPs are based on equal prior model probabilities."
 msgstr ""
+"يدل BF.u على عامل بايز للفرضية المعنية مقابل الفرضية غير المقيّدة Hu.\n"
+"                        ويدل BF.c على عامل بايز للفرضية المعنية مقابل "
+"متممتها.\n"
+"                        تتضمن PMPa الاحتمالات البعدية للنماذج للفرضيات "
+"المحددة.\n"
+"                        وتضيف PMPb الفرضية غير المقيّدة Hu.\n"
+"                        وتضيف PMPc الفرضية Hc، متممة اتحاد الفرضيات "
+"المحددة.\n"
+"                        تستند جميع احتمالات النماذج البعدية إلى احتمالات قبلية "
+"متساوية للنماذج."
 
 msgid "Results not computed: %1$s."
-msgstr ""
+msgstr "لم تُحسب النتائج: %1$s."
 
 msgid "Variable contains missing values, the rows containing these values are removed in the analysis."
-msgstr ""
+msgstr "يتضمن المتغير قيمًا مفقودة؛ وتُحذف الصفوف التي تحتويها من التحليل."
 
 msgid "H0: Equal"
-msgstr ""
+msgstr "H0: تساوٍ"
 
 msgid "H1: Not equal"
-msgstr ""
+msgstr "H1: عدم تساوٍ"
 
 msgid "H1: Bigger"
-msgstr ""
+msgstr "H1: أكبر"
 
 msgid "H1: Smaller"
-msgstr ""
+msgstr "H1: أصغر"
 
 msgid "H2: Smaller"
-msgstr ""
+msgstr "H2: أصغر"
 
 msgid "Results not computed: %s"
-msgstr ""
+msgstr "لم تُحسب النتائج: %s"
 
 msgid "Both variables contain missing values, the rows containing these values are removed in the analysis."
 msgstr ""
+"يحتوي كلا المتغيرين على قيم مفقودة؛ وتُحذف الصفوف التي تتضمن هذه القيم من "
+"التحليل."
 
 msgid "The variable %s contains missing values, the rows containing these values are removed in the analysis."
-msgstr ""
+msgstr "يتضمن المتغير %s قيمًا مفقودة؛ وتُحذف الصفوف التي تحتويها من التحليل."
 
 msgid "Results not computed: The variables in this pair are the same."
-msgstr ""
+msgstr "لم تُحسب النتائج: المتغيران في هذا الزوج متطابقان."
 
 msgid "Results not computed: The pair is incomplete."
-msgstr ""
+msgstr "لم تُحسب النتائج: الزوج غير مكتمل."
 
 msgid "The variables %1$s contain missing values, the rows containing these values are removed in the analysis."
 msgstr ""
+"تتضمن المتغيرات %1$s قيمًا مفقودة؛ وتُحذف الصفوف التي تحتويها من التحليل."
 
 msgid "<b>Warning.</b>"
-msgstr ""
+msgstr "<b>تحذير.</b>"
 
 msgid "The variables %1$s and %2$s contain missing values, the rows containing these values are removed in the analysis."
 msgstr ""
+"يتضمن المتغيران %1$s و%2$s قيمًا مفقودة؛ وتُحذف الصفوف التي تحتويها من التحليل."
 
 msgid "The variable %1$s contains missing values, the rows containing these values are removed in the analysis."
-msgstr ""
+msgstr "يتضمن المتغير %1$s قيمًا مفقودة؛ وتُحذف الصفوف التي تحتويها من التحليل."
 
 msgid "H%1$i"
-msgstr ""
+msgstr "H%1$i"
 
 msgid "Hu"
-msgstr ""
+msgstr "Hu"
 
 msgid "Hc"
-msgstr ""
+msgstr "Hc"
 
 msgid "<b>Warning</b>"
-msgstr ""
+msgstr "<b>تحذير</b>"
 
 msgid "The entered model constraints are incompatible with the data and therefore the computed results contain NaNs."
 msgstr ""
+"قيود النموذج المدخلة غير متوافقة مع البيانات، ولذلك تتضمن النتائج المحسوبة "
+"قيم NaNs."
 
 msgid "<b>Your hypotheses (almost) completely cover the parameter space. Therefore instead of PMPc, you should interpret PMPa.</b>"
 msgstr ""
+"<b>تغطي فرضياتك فضاء المعلمات بالكامل (أو تكاد). لذا ينبغي تفسير PMPa بدلًا من "
+"PMPc.</b>"
 
 msgid "Bayes Factor Matrix"
-msgstr ""
+msgstr "مصفوفة عوامل بايز"
 
 msgid "Coefficients for Groups plus Covariates"
-msgstr ""
+msgstr "معاملات المجموعات والمتغيرات المصاحبة"
 
 msgid "Coefficients for Parameters"
-msgstr ""
+msgstr "معاملات المَعْلمات"
 
 msgid "Descriptive Statistics"
-msgstr ""
+msgstr "الإحصاءات الوصفية"
 
 msgid "Coefficient"
-msgstr ""
+msgstr "المعامل"
 
 msgid "Mean"
-msgstr ""
+msgstr "المتوسط"
 
 msgid "%.0f%% Credible Interval"
-msgstr ""
+msgstr "فترة المصداقية %.0f%%"
 
 msgid "Group"
-msgstr ""
+msgstr "المجموعة"
 
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgid "SD"
-msgstr ""
+msgstr "الانحراف المعياري (SD)"
 
 msgid "SE"
-msgstr ""
+msgstr "الخطأ المعياري (SE)"
 
 msgid "Lower"
-msgstr ""
+msgstr "الحد الأدنى"
 
 msgid "Upper"
-msgstr ""
+msgstr "الحد الأعلى"
 
 msgid "The displayed coefficients are standardized."
-msgstr ""
+msgstr "المعاملات المعروضة معيارية."
 
 msgid "The displayed coefficients are unstandardized."
-msgstr ""
+msgstr "المعاملات المعروضة غير معيارية."
 
 msgid "The results for this variable were not computed."
-msgstr ""
+msgstr "لم تُحسب نتائج هذا المتغير."
 
 msgid "Posterior Probabilities"
-msgstr ""
+msgstr "الاحتمالات البعدية"
 
 msgid "Plotting not possible: the results for this variable were not computed."
-msgstr ""
+msgstr "لا يمكن الرسم: لم تُحسب نتائج هذا المتغير."
 
 msgid "Plotting not possible: %1$s"
-msgstr ""
+msgstr "الرسم غير ممكن: %1$s"
 
 msgid "Plotting not possible: the results could not be computed."
-msgstr ""
+msgstr "لا يمكن الرسم: تعذر حساب النتائج."
 
 msgid "Descriptive Plots"
-msgstr ""
+msgstr "المخططات الوصفية"
 
 msgid "Descriptives Plot"
-msgstr ""
+msgstr "مخطط الإحصاءات الوصفية"
 
 msgid "Adjusted Means"
-msgstr ""
+msgstr "المتوسطات المعدلة"
 
 msgid "Difference"
-msgstr ""
+msgstr "الفرق"
 
 msgid "H0"
-msgstr ""
+msgstr "H0"
 
 msgid "H2"
-msgstr ""
+msgstr "H2"
 
 msgid "H"
-msgstr ""
+msgstr "H"
 
 msgid "Excluding Hu and Hc"
-msgstr ""
+msgstr "باستثناء Hu وHc"
 
 msgid "Including Hc"
-msgstr ""
+msgstr "مع تضمين Hc"
 
 msgid "Including Hu"
-msgstr ""
+msgstr "مع تضمين Hu"
 
 msgid "Path Diagram"
-msgstr ""
+msgstr "مخطط المسار"
 
 msgid "Group: %1$s"
-msgstr ""
+msgstr "المجموعة: %1$s"
 
 msgid "An error occurred while creating this plot:<br>%1$s."
-msgstr ""
+msgstr "حدث خطأ أثناء إنشاء هذا الرسم:<br>%1$s."
