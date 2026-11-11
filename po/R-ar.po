@@ -1,0 +1,292 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jaspBain 0.96.3\n"
+"POT-Creation-Date: 2026-04-25 04:18\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+
+msgid "Bain does not accept factor levels that contain spaces. Please remove the spaces from your factor levels to continue."
+msgstr ""
+
+msgid "An error occurred in the call to lavaan: %1$s. Please double check if the variables in lavaan syntax match the variables in your data set."
+msgstr ""
+
+msgid "An error occurred in the analysis: Lavaan could not compute the standard errors because the information matrix could not be inverted. This may be a symptom that the model is not identified."
+msgstr ""
+
+msgid "The fixed factor has too many levels for a Bain analysis."
+msgstr ""
+
+msgid "An error occurred in the analysis:<br>%1$s<br><br>Please double check if the variables in the 'Model Contraints' section match the variables in your data set."
+msgstr ""
+
+msgid "Hypothesis"
+msgstr ""
+
+msgid "H%i"
+msgstr ""
+
+msgid "H1"
+msgstr ""
+
+msgid "Bain Independent Samples Welch's T-Test"
+msgstr ""
+
+msgid "Bain Paired Samples T-Test"
+msgstr ""
+
+msgid "Bain One Sample T-test"
+msgstr ""
+
+msgid "Bain ANOVA"
+msgstr ""
+
+msgid "Bain ANCOVA"
+msgstr ""
+
+msgid "Bain Linear Regression"
+msgstr ""
+
+msgid "Bain Structural Equation Model"
+msgstr ""
+
+msgid "BF"
+msgstr ""
+
+msgid "Posterior probability"
+msgstr ""
+
+msgid "The alternative hypothesis H1 specifies that the mean is unequal to %s. The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "The alternative hypothesis H1 specifies that the mean is bigger than %s. The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "The alternative hypothesis H1 specifies that the mean is smaller than %s. The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "The hypothesis H1 specifies that the mean is bigger than %1$s and the hypothesis H2 specifies that the mean is smaller than %1$s. The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "The null hypothesis H0 with test value %1$s is tested against the other hypotheses. H1 states that the mean is bigger than %1$s and H2 states that the mean is smaller than %1$s. The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "The alternative hypothesis H1 specifies that the mean of group 1 is unequal to the mean of group 2. The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "The alternative hypothesis H1 specifies that the mean of group 1 is smaller than the mean of group 2. The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "The alternative hypothesis H1 specifies that mean of group 1 is bigger than the mean of group 2. The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "The hypothesis H1 specifies that the mean of group 1 is bigger than the mean of group 2. The hypothesis H2 specifies that the mean in group 1 is smaller than the mean in group 2. The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "The null hypothesis H0 (equal group means) is tested against H1 (first mean larger than second mean) and H2 (first mean smaller than second mean). The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "The alternative hypothesis H1 specifies that the mean of variable 1 is unequal to the mean of variable 2. The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "The alternative hypothesis H1 specifies that the mean of variable 1 is bigger than the mean of variable 2. The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "The alternative hypothesis H1 specifies that the mean of variable 1 is smaller than the mean of variable 2. The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "The hypothesis H1 specifies that the mean of variable 1 is bigger than the mean of variable 2, while the hypothesis H2 specifies that it is smaller. The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "The null hypothesis H0 with equal means is tested against the other hypotheses. The alternative hypothesis H1 states that the mean of variable 1 is bigger than the mean of variable 2. The alternative hypothesis H2 states that the mean of variable 1 is smaller than the mean of variable 2. The posterior probabilities are based on equal prior probabilities."
+msgstr ""
+
+msgid "BF.u"
+msgstr ""
+
+msgid "BF.c"
+msgstr ""
+
+msgid "PMP a"
+msgstr ""
+
+msgid "PMP b"
+msgstr ""
+
+msgid "PMP c"
+msgstr ""
+
+msgid "BF.u denotes the Bayes factor of the hypothesis at hand versus the unconstrained hypothesis Hu. \n                        BF.c denotes the Bayes factor of the hypothesis at hand versus its complement. \n                        PMPa contains the posterior model probabilities of the hypotheses specified. \n                        PMPb adds Hu, the unconstrained hypothesis. \n                        PMPc adds Hc, the complement of the union of the hypotheses specified. \n                        All PMPs are based on equal prior model probabilities."
+msgstr ""
+
+msgid "Results not computed: %1$s."
+msgstr ""
+
+msgid "Variable contains missing values, the rows containing these values are removed in the analysis."
+msgstr ""
+
+msgid "H0: Equal"
+msgstr ""
+
+msgid "H1: Not equal"
+msgstr ""
+
+msgid "H1: Bigger"
+msgstr ""
+
+msgid "H1: Smaller"
+msgstr ""
+
+msgid "H2: Smaller"
+msgstr ""
+
+msgid "Results not computed: %s"
+msgstr ""
+
+msgid "Both variables contain missing values, the rows containing these values are removed in the analysis."
+msgstr ""
+
+msgid "The variable %s contains missing values, the rows containing these values are removed in the analysis."
+msgstr ""
+
+msgid "Results not computed: The variables in this pair are the same."
+msgstr ""
+
+msgid "Results not computed: The pair is incomplete."
+msgstr ""
+
+msgid "The variables %1$s contain missing values, the rows containing these values are removed in the analysis."
+msgstr ""
+
+msgid "<b>Warning.</b>"
+msgstr ""
+
+msgid "The variables %1$s and %2$s contain missing values, the rows containing these values are removed in the analysis."
+msgstr ""
+
+msgid "The variable %1$s contains missing values, the rows containing these values are removed in the analysis."
+msgstr ""
+
+msgid "H%1$i"
+msgstr ""
+
+msgid "Hu"
+msgstr ""
+
+msgid "Hc"
+msgstr ""
+
+msgid "<b>Warning</b>"
+msgstr ""
+
+msgid "The entered model constraints are incompatible with the data and therefore the computed results contain NaNs."
+msgstr ""
+
+msgid "<b>Your hypotheses (almost) completely cover the parameter space. Therefore instead of PMPc, you should interpret PMPa.</b>"
+msgstr ""
+
+msgid "Bayes Factor Matrix"
+msgstr ""
+
+msgid "Coefficients for Groups plus Covariates"
+msgstr ""
+
+msgid "Coefficients for Parameters"
+msgstr ""
+
+msgid "Descriptive Statistics"
+msgstr ""
+
+msgid "Coefficient"
+msgstr ""
+
+msgid "Mean"
+msgstr ""
+
+msgid "%.0f%% Credible Interval"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "N"
+msgstr ""
+
+msgid "SD"
+msgstr ""
+
+msgid "SE"
+msgstr ""
+
+msgid "Lower"
+msgstr ""
+
+msgid "Upper"
+msgstr ""
+
+msgid "The displayed coefficients are standardized."
+msgstr ""
+
+msgid "The displayed coefficients are unstandardized."
+msgstr ""
+
+msgid "The results for this variable were not computed."
+msgstr ""
+
+msgid "Posterior Probabilities"
+msgstr ""
+
+msgid "Plotting not possible: the results for this variable were not computed."
+msgstr ""
+
+msgid "Plotting not possible: %1$s"
+msgstr ""
+
+msgid "Plotting not possible: the results could not be computed."
+msgstr ""
+
+msgid "Descriptive Plots"
+msgstr ""
+
+msgid "Descriptives Plot"
+msgstr ""
+
+msgid "Adjusted Means"
+msgstr ""
+
+msgid "Difference"
+msgstr ""
+
+msgid "H0"
+msgstr ""
+
+msgid "H2"
+msgstr ""
+
+msgid "H"
+msgstr ""
+
+msgid "Excluding Hu and Hc"
+msgstr ""
+
+msgid "Including Hc"
+msgstr ""
+
+msgid "Including Hu"
+msgstr ""
+
+msgid "Path Diagram"
+msgstr ""
+
+msgid "Group: %1$s"
+msgstr ""
+
+msgid "An error occurred while creating this plot:<br>%1$s."
+msgstr ""
